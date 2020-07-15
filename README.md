@@ -12,6 +12,8 @@ please follow these steps:
 Firstly, run the following queries in local mongodb instance
 
 - name the local mongo db as Mart with default port 27017 (ref: application.yml for database instance props)
+
+
 db.createCollection("products")
 
 db.products.ensureIndex({name: "text"})
